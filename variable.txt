@@ -1,0 +1,28 @@
+Proglasdirmada deyisenler istifade olunan melumatlari siniflendirir ve bunlar da istifadeci ucun hemin melumatlar ustunde
+emeliyyatlar aparmagi asanlasdirir.Programlasdirma dillerinde bir cox deyisenlerden istifade olunur.Bunlardan en cox 
+istifade olunanlari int,char,float,double,long,bool ve.s-dir.
+1.Integer demek olar ki, en cox istifade olunan deyisen novudur, reqemleri ozunde saxlamaq ucun istifade olunur. RAM-da 
+32 bit yer ayirir ve -2,147,483,648 -- 2,147,483,647 arasi reqemleri ozunde saxliya bilir.
+2.Char esasen herfleri ozunde saxliyir, chardan 1 herfi ekrana cixarmaq ucun istifade olunur, lakin cox herfli yazilari 
+ekrana cixarmaq ucun stringlerden istifade olunur.
+3.Float ve double kesr sayilar ucun istifade olunur. Float 32 bit ,double ise 64 bit yer ayirir. double floatdan ferqli
+olaraq vergulden sonraki hissesi daha uzun olan kesr saylarini yaddasda saxlamaq ucun istifade olunur.
+4.Long integer kimi tam ededlei saxlamaq ucun istifade olunur, lakin tutumu daha boyukdur.-9,223,372,036,854,775,808 -- 
+9,223,372,036,854,775,807  arasi ededleri saxliya bilir ve 64 bit yer ayirir.
+5.bool ise yalniz True ve False-u ekrana cixarmaq ucun istifade olunu
+
+Operatorlar deyisenler uzerinde emeliyyat aparmaq ucun istifade olunan simvollardir.
+1.Komputer proqramlari riyazi hesablamalri genis istifade edir ve bu programlasdirma dillerinde de istifade olunur. 
+Riazi operatorlar bunlardir: +(toplama), -(cixma), *(vurma), /(bolme-cavabda bolmeden alinan netice yazilir), %(qaliqli
+bolme--cavabda bolmeden alinan qaliq yazilir)
+2.Sert operatorlari esasen her hansi serti ifade etmek ucun istifade olunur: 
+== --2 deyisenin beraber oldugunu yoxlamaq ucun istifade olunur,eger beraberdise sert True olur
+!= -- beraberliyin olmadigini yoxlamaq ucun istifade olunur
+< > -- soldaki deyisenin sagdakindan kicik ve ya boyuk oldugunu yoxlayir.
+>= --soldaki deyisenin sagdakindan boyuk ve ya beraber oldgunu yoxlayir
+<= -- soldaki deyisenin sagdakindan kicik ve ya beraber oldgunu yoxlayir3
+3.Mentiq operatorlari istenilen programlasdirma dilinde onemlidir ve bize vezyete uygun qerarlar almaga komek edir:
+&& -- AND operatoru adlanir. Eger her 2 sert odenirse True olur
+|| -- OR operatoru adlanir. Eger daxil edilen 2 veya daha artiq hellden hec olmasa biri odenirse True olur.
+! --  NOT operatorudur. Sertden alinan cavabi tersine cevirir. Eger sertden True cavabi almisigsa NOT operatoru 
+onu False edir
